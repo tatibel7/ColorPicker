@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context=".HomePage">
+
+    <TextView
+        android:id="@+id/displayValues"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:fontFamily="@font/beth_ellen"
+        android:text="Pick Your Color!"
+        android:textAlignment="center"
+        android:textColor="@color/teal_200"
+        android:textSize="55sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="#30DD37"
+        android:foreground="?attr/selectableItemBackgroundBorderless" 
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Log in"
+        android:textSize="20sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/colorWheel"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="#FDEB49"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Color Wheel"
+        android:textSize="20sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/uploadImage"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="#8E79B5"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Upload an Image"
+        android:textSize="20sp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/savedColors"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="#EF3D7A"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Saved Colors"
+        android:textSize="20sp"
+        />
+
+
+</LinearLayout>

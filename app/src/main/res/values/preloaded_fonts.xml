@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/beth_ellen</item>
+        <item>@font/fascinate_inline</item>
+        <item>@font/grand_hotel</item>
+        <item>@font/oleo_script</item>
+        <item>@font/poppins</item>
+        <item>@font/poppins_medium</item>
+        <item>@font/poppins_semibold</item>
+        <item>@font/poppins_thin</item>
+    </array>
+</resources>
